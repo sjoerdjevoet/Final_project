@@ -1,15 +1,12 @@
-<h1>A First Level Header</h1>
+<h1>Global terrorism</h1>
 
-<h2>A Second Level Header</h2>
+<h2>Introductie</h2>
 
-<p>Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.</p>
+<p>De afgelopen jaren is Europa geschrokken van aanslagen met een groot aantal doden in Parijs, Brussel, Londen en Madrid. Volgens de Nationale Coördinator Terrorismebestrijding en Veiligheid is “de kans op een aanslag in Nederland reëel.” Het gevoel leeft dat er steeds meer terrorisme is in West-Europa, maar klopt dat met de cijfers: is het aantal sterfgevallen door terroristische aanslagen de afgelopen jaren toegenomen?</p>
 
-<p>The quick brown fox jumped over the lazy
-dog's back.</p>
+<h2> Probleemstelling </h2>
 
-<h3>Header 3</h3>
+<p> Mensen hebben door de genoemde aanslagen een "onveiliger gevoel" gekregen. In hoeverre wordt dit gevoel bevestigt door de cijfers? Kent Europa meer terroristische aanslagen t.o.v. 1990 ? En door welke groepering wordt deze aanslag uitgevoerd? 
 
 <blockquote>
     <p>This is a blockquote.</p>
