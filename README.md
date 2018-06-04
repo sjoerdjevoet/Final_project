@@ -1,4 +1,4 @@
-<h1>Terrorisme in Europa 1990-2015 (misschien 2017)</h1>
+<h1>Terrorisme in Europa 1990-2015 (misschien tot en met 2017)</h1>
 
 <h2>Introductie</h2>
 
