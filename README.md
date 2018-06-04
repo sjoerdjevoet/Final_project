@@ -10,17 +10,16 @@
 
 <h3> Doelgroep </h3>
 
-<p> De bezorgde burger </p>
+<p> De bezorgde burger en wellicht instanties zoals de AIVD </p>
 
 
 
 <blockquote>
-    <p>Het idee in één zin</p>
-
-  Het idee is om de bezorgde burger te informeren met betrekking tot de terroristische aanslagen in Europa op basis van verschillende visualisaties
+    
+ Het idee is om de bezorgde burger te informeren met betrekking tot de terroristische aanslagen in Europa op basis van verschillende visualisaties.
     
 </blockquote>
 
 <h2> Oplossing </h2>
-
+<h3> Terrorisme in Europa jaartal </h3>
 ![](doc/Visualphoto.png)
