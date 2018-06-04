@@ -21,5 +21,5 @@
 </blockquote>
 
 <h2> Oplossing </h2>
-<h3> Terrorisme in Europa jaartal </h3>
+
 ![](doc/Visualphoto.png)
