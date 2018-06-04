@@ -38,5 +38,6 @@
 
 <h2> Benodigdheden </h2>
 <p> De data haal ik uit de data.world informatiebank: https://data.world/data-society/global-terrorism-data </p>
+<p> Ik gebruik deze externe componenten om tot de visualtisaties te komen: https://github.com/d3/d3/wiki/gallery </p>
 <p> Er zijn kaarten gemaakt die het aantal aanslagen of doden weergeven per land maar niet in relatie tot bepaalde groeperingen en soorten doelen </p>
 <p> Het lastige wordt om alles netjes op de website te krijgen doormiddel van bootstrap en de visualties goed onderling te koppelen </p>
