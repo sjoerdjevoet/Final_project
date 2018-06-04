@@ -23,4 +23,4 @@
 
 <h2> Oplossing </h2>
 
-![](doc/Visualgebeuren.png)
+![](doc/Visualphoto.png)
