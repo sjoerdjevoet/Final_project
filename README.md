@@ -15,9 +15,8 @@
 
 
 <blockquote>
-    <p>This is a blockquote.</p>
+    <p>Het idee in één zin</p>
 
-    <p>This is the second paragraph in the blockquote.</p>
-
-    <h2>This is an H2 in a blockquote</h2>
+    <p>Het idee is om de bezorgde burger te informeren met betrekking tot de terroristische aanslagen in Europa op basis van verschillende visualisaties</p>
+    
 </blockquote>
