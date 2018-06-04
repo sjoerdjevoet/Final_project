@@ -25,3 +25,6 @@
 ![](doc/Visualphoto.png)
 
 <p> De kaart linksbovenin wordt gekleurd door het aantal doden of aanslagen. De gebruiker heeft de mogelijkheid om doormiddel van een knop deze keuze te maken. Op het moment dat er op een land geklikt wordt (in dit voorbeeld Engeland) wordt een tooltip zichtbaar met daarin de naam van het land en het aantal. Tegelijktijd worden verschillende visualties geupdate op basis van het gekozen land.  </p>
+
+<p> Rechtsbovenin kan er gekozen worden voor een bepaald jaar (van 1990 tot 2015 (misschien tot 2017)). Daarnaast wordt er ook het succesperentage weergegeven van een aanslag met betrekking tot een bepaald land. In de dataset wordt een aanslag als succes bestempeld als er doden of gewonden zijn gevallen. Indien er geen doden of gewonden vallen wordt aan de aanslag als mislukt beschouwt. </p>
+<p> Als eerste wordt de hierarchical barchart geupdate. Deze geeft de groepering en het aantal aanslagen of doden weer (afhankelijk van knop) </p>
