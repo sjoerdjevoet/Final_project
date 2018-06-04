@@ -17,6 +17,6 @@
 <blockquote>
     <p>Het idee in één zin</p>
 
-    <p>Het idee is om de bezorgde burger te informeren met betrekking tot de terroristische aanslagen in Europa op basis van verschillende visualisaties</p>
+  Het idee is om de bezorgde burger te informeren met betrekking tot de terroristische aanslagen in Europa op basis van verschillende visualisaties
     
 </blockquote>
