@@ -32,6 +32,6 @@
 <p> Ook wordt een pie chart weergegeven die het soort wapen wat gebruikt wordt voor de aanslagen weergeeft. </p>
 <p> Als laatste wordt een heat map weergegeven die aangeeft wat de relatie is tussen een bepaalt soort doel en de maand waarin dit gebeurt. Op basis van het aantal aanslagen </p>
 
-<h4> Optinionele functionaliteiten </h4?
+<h4> Optinionele functionaliteiten </h4>
 <p> Op basis van een nieuws API wordt het nieuws weergegeven met betrekking tot terrorisme met betrekking tot het geselecteerde land. </p>
 <p> De knop aantal doden en aantal aanslagen heeft gevolgen voor alle visualisaties (niet alleen voor de kaart). </p>
