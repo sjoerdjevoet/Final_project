@@ -8,6 +8,12 @@
   <tr>
     <th>Variabele naam</th>
     <th>Beschrijving</th>
+     <tr>
+       
+    <td>weapon_type</td>
+    <td>Giovanni Rovelli</td>
+   </tr>
+   
     
   </tr>
   <tr>
@@ -34,11 +40,15 @@
     <td>attack_type</td>
     <td>Yoshi Tannamuri</td>
     </tr>
+    
+    
   <tr>
     <td>target_type</td>
     <td>Giovanni Rovelli</td>
- 
-  </tr>
+   </tr>
+   
+   
+   
    <tr>
     <td>target_nationality</td>
     <td>Giovanni Rovelli</td>
@@ -50,10 +60,12 @@
     <td>Giovanni Rovelli</td>
    </tr>
    
-    <tr>
+   
+   <tr>
     <td>weapon_type</td>
     <td>Giovanni Rovelli</td>
    </tr>
+   
    
    
    <tr>
