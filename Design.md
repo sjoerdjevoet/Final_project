@@ -328,8 +328,16 @@ number includes all victims and attackers who died as a direct result of the inc
   <td> MakeHeatMap </td>
   <td> Test </td>
   </tr>
-   </tr>
+   <tr>
+  <td> UpdateHeatMap </td>
+  <td> Test </td>
+  </tr>
+   <tr>
   <td> MakeHierarchicalChart </td>
+  <td> Test </td>
+  </tr>
+  <tr>
+  <td> UpdateHierarchicalChart </td>
   <td> Test </td>
   </tr>
   
