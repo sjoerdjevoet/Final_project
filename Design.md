@@ -2,6 +2,7 @@
 
 <h2> Data Transformation </h2>
 <p> De data die ik gebruik komt van: https://data.world/alexcl/global-terrorism-database.  </p>
+<p> Beschrijvingen van de variabelen komt uit het volgende document: https://data.world/data-society/global-terrorism-data/workspace/file?filename=Codebook.pdf
 
 <h3> beschrijving variabelen </h3>
 <table>
