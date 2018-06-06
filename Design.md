@@ -362,5 +362,5 @@ number includes all victims and attackers who died as a direct result of the inc
   </tr>
    
  </table>
- <h3> Schematische weergave functies </h3>
- ![](doc/Visualphoto.png)
+ 
+ ![](doc/Word_Visual_Sketch_Design.png)
