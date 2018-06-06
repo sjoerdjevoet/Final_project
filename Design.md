@@ -9,18 +9,26 @@
     <th>Variabele naam</th>
     <th>Beschrijving</th>
      <tr>
-       
-    <td>weapon_type</td>
-    <td>Giovanni Rovelli</td>
-   </tr>
-   
-    
+  
+   <tr>
+    <td>iyear</td>
+    <td>Maria Anders</td>
+  
+  </tr>
+      
   </tr>
   <tr>
     <td>iyear</td>
     <td>Maria Anders</td>
   
   </tr>
+  
+   <tr>
+    <td>iyear</td>
+    <td>Maria Anders</td>
+  
+  </tr>
+  
   <tr>
     <td>country</td>
     <td>Francisco Chang</td>
@@ -31,11 +39,25 @@
     <td>Roland Mendel</td>
  
   </tr>
+  
+   <tr>
+    <td>iyear</td>
+    <td>Maria Anders</td>
+  
+  </tr>
+  
   <tr>
     <td>suicide</td>
     <td>Helen Bennett</td>
  
   </tr>
+  
+   <tr>
+    <td>iyear</td>
+    <td>Maria Anders</td>
+  
+  </tr>
+  
   <tr>
     <td>attack_type</td>
     <td>Yoshi Tannamuri</td>
