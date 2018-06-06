@@ -1,4 +1,4 @@
-< h1> Proces beschrijving </h1>
+<h1> Proces beschrijving </h1>
 
 <h2> Dag 1 </h2>
 
