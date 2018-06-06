@@ -16,19 +16,7 @@
   
   </tr>
       
-  </tr>
-  <tr>
-    <td>iyear</td>
-    <td>Maria Anders</td>
-  
-  </tr>
-  
-   <tr>
-    <td>iyear</td>
-    <td>Maria Anders</td>
-  
-  </tr>
-  
+ 
   <tr>
     <td>country</td>
     <td>Francisco Chang</td>
