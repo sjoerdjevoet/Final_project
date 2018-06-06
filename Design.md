@@ -5,7 +5,7 @@
 <p> Beschrijvingen van de variabelen komt uit het volgende document: https://data.world/data-society/global-terrorism-data/workspace/file?filename=Codebook.pdf
 
 
-<h3> beschrijving variabelen </h3>
+<h3> Beschrijving variabelen </h3>
 <table>
   <tr>
     <th>Variabele naam</th>
@@ -141,7 +141,7 @@ The attack type cannot be determined from the available information.</td> <br>
    <tr>
     <td>target_type</td>
     <td>
- 1 = BUSINESS: <br>
+ BUSINESS: <br>
 Businesses are defined as individuals or organizations engaged in commercial or
 mercantile activity as a means of livelihood. Any attack on a business or private
 citizens patronizing a business such as a restaurant, gas station, music store, bar,
@@ -155,7 +155,7 @@ district or commercial area”, or generic business‐related individuals such a
 “businessmen” (these attacks are captured under “Private Citizens and Property”,
 see below.) Also does not include attacks against generic business‐related. <br>
 
-2 = GOVERNMENT (GENERAL): <br>
+GOVERNMENT (GENERAL): <br>
 Any attack on a government building; government member, former members,
 including members of political parties in official capacities, their convoys, or events
 sponsored by political parties; political movements; or a government sponsored
@@ -163,7 +163,7 @@ institutions. This value includes cultural centers that have diplomatic function
 against diplomatic staff and their families (when the relationship is relevant to the
 motive of the attack) and property. The United Nations is a diplomatic target. <br>
 
-8 = EDUCATIONAL INSTITUTION: <br>
+EDUCATIONAL INSTITUTION: <br>
 Attacks against schools, teachers, or guards protecting school sites. Includes attacks
 against university professors, teaching staff and school buses. Moreover, includes
 attacks against religious schools in this value.  
@@ -174,23 +174,23 @@ educational setting, they are coded as private citizens and property.  
 Excludes attacks against military schools (attacks on military schools are coded as
 “Military,” see below). </br>
 
-9 = FOOD OR WATER SUPPLY: <br>
+FOOD OR WATER SUPPLY: <br>
 Attacks on food or water supplies or reserves are included in this value. This
 generally includes attacks aimed at the infrastructure related to food and water for
 human consumption.<br>
 
-10 = JOURNALISTS & MEDIA: <br>
+JOURNALISTS & MEDIA: <br>
 Includes, attacks on reporters, news assistants, photographers, publishers, as well as
 attacks on media headquarters and offices.
 Attacks on transmission facilities such as antennae or transmission towers, or
 broadcast infrastructure are coded as “Telecommunications,” see below.</br>
 
 
-11 = MARITIME (INCLUDES PORTS AND MARITIME FACILITIES): <br>
+MARITIME (INCLUDES PORTS AND MARITIME FACILITIES): <br>
 Includes civilian maritime: attacks against fishing ships, oil tankers, ferries, yachts,
 etc. (Attacks on fishermen are coded as “Private Citizens and Property,” see below). <br>
 
-12 = NGO: <br>
+NGO: <br>
 Includes attacks on offices and employees of non‐governmental organizations
 (NGOs). NGOs here include large multinational non‐governmental organizations
 such as the Red Cross and Doctors without Borders, as well as domestic
@@ -198,7 +198,7 @@ organizations.
 Does not include labor unions, social clubs, student groups, and other non‐NGO
 (such cases are coded as “Private Citizens and Property”, see below). <br>
 
-13= OTHER
+OTHER
 This value includes acts of terrorism committed against targets which do not fit into
 other categories. Some examples include ambulances, firefighters, refugee camps,
 and international demilitarized zones.
@@ -209,8 +209,7 @@ malls.
 Also includes ambiguous cases where the target/victim was a named individual, or
 where the target/victim of an attack could be identified by name, age, occupation,
 gender or nationality. This value also includes ceremonial events, such as weddings
-and funerals.
-  
+and funerals.  
 The GTD contains a number of attacks against students. If these attacks are not
 expressly against a school, university or other educational institution or are not
 carried out in an educational setting, these attacks are coded using this value. Also,
@@ -220,14 +219,15 @@ Finally, this value includes police informers.
 Does not include attacks causing civilian casualties in businesses such as restaurants,
 cafes or movie theaters (these categories are coded as “Business” see above).
   
-15 = RELIGIOUS FIGURES/INSTITUTIONS
+RELIGIOUS FIGURES/INSTITUTIONS
 This value includes attacks on religious leaders, (Imams, priests, bishops, etc.),
 religious institutions (mosques, churches), religious places or objects (shrines, relics,
 etc.). This value also includes attacks on organizations that are affiliated with
 religious entities that are not NGOs, businesses or schools.
 Attacks on religious pilgrims are considered “Private Citizens and Property;” attacks
-on missionaries are considered religious figures.  
-16 = TELECOMMUNICATION
+on missionaries are considered religious figures.
+
+TELECOMMUNICATION
 This includes attacks on facilities and infrastructure for the transmission of
 information. More specifically this value includes things like cell phone towers,
 telephone booths, television transmitters, radio, and microwave towers.  
@@ -235,17 +235,16 @@ telephone booths, television transmitters, radio, and microwave towers.  
 Terrorists or members of identified terrorist groups within the GTD are included in
 this value. Membership is broadly defined and includes informants for terrorist
 groups, but excludes former or surrendered terrorists.  
-34
-GLOBAL TERRORISM DATABASE CODEBOOK JUNE 2016
-This value also includes cases involving the targeting of militias and guerillas.  
-18 = TOURISTS
+
+TOURISTS
 This value includes the targeting of tour buses, tourists, or “tours.”  Tourists are
 persons who travel primarily for the purposes of leisure or amusement. Government
 tourist offices are included in this value.
 The attack must clearly target tourists, not just an assault on a business or
 transportation system used by tourists. Travel agencies are coded as business
 targets.
-19 = TRANSPORTATION (OTHER THAN AVIATION)
+
+TRANSPORTATION (OTHER THAN AVIATION)
 Attacks on public transportation systems are included in this value. This can include
 efforts to assault public buses, minibuses, trains, metro/subways, highways (if the
 highway itself is the target of the attack), bridges, roads, etc.  
@@ -253,16 +252,19 @@ The GTD contains a number of attacks on generic terms such as “cars” or “v
 These attacks are assumed to be against “Private Citizens and Property” unless
 shown to be against public transportation systems. In this regard, buses are
 assumed to be public transportation unless otherwise noted.
-20 = UNKNOWN
+
+UNKNOWN
 The target type cannot be determined from the available information.
-21 = UTILITIES
+
+UTILITIES
 This value pertains to facilities for the transmission or generation of energy. For
 example, power lines, oil pipelines, electrical transformers, high tension lines, gas
 and electric substations, are all included in this value. This value also includes
 lampposts or street lights.  
 Attacks on officers, employees or facilities of utility companies excluding the type of
 facilities above are coded as business.
-22 = VIOLENT POLITICAL PARTIES
+
+VIOLENT POLITICAL PARTIES
 This value pertains to entities that are both political parties (and thus, coded as
 “government” in this coding scheme) and terrorists. It is operationally defined as
 groups that engage in electoral politics and appear as “Perpetrators” in the GTD. </td>
