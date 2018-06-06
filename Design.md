@@ -96,6 +96,7 @@ objectives have also been stated. Hijackings are distinct from Hostage Taking
 because the target is a vehicle, regardless of whether there are
 people/passengers in the vehicle. <br>
 
+
 5 = HOSTAGE TAKING (BARRICADE INCIDENT): <br>
 An act whose primary objective is to take control of hostages for the purpose
 of achieving a political objective through concessions or through disruption
@@ -104,12 +105,14 @@ the incident occurs and usually plays out at the target location with little or
 no intention to hold the hostages for an extended period in a separate
 clandestine location. <br>
 
+
 6 = HOSTAGE TAKING (KIDNAPPING): <br>
 An act whose primary objective is to take control of hostages for the purpose
 of achieving a political objective through concessions or through disruption
 of normal operations. Kidnappings are distinguished from Barricade Incidents
 (above) in that they involve moving and holding the hostages in another
 location. <br>
+
 
 7 = FACILITY / INFRASTRUCTURE ATTACK: <br>
 An act, excluding the use of an explosive, whose primary objective is to cause
@@ -121,12 +124,14 @@ an installation, yet also cause harm to people incidentally (e.g. an arson
 attack primarily aimed at damaging a building, but causes injuries or
 fatalities). <br>
   
+  
 8 = UNARMED ASSAULT: <br>
 An attack whose primary objective is to cause physical harm or death directly
 to human beings by any means other than explosive, firearm, incendiary, or
 sharp instrument (knife, etc.). Attacks involving chemical, biological or
 radiological weapons are considered unarmed assaults. <br>
   
+  
 9 = UNKNOWN: <br>
 The attack type cannot be determined from the available information.</td> <br>
  
