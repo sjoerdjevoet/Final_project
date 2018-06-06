@@ -3,7 +3,7 @@
 <h2> Data Transformation </h2>
 <p> De data die ik gebruik komt van: https://data.world/alexcl/global-terrorism-database.  </p>
 
-
+<h3> beschrijving variabelen </h3>
 <table>
   <tr>
     <th>Variabele naam</th>
@@ -15,7 +15,7 @@
     <td>Numeric Variable
 This field contains the year in which the incident occurred. In the case of incident(s)
 occurring over an extended period, the field will record the year when the incident was
-initiated.  </td>
+initiated. </td>
   
   </tr>
       
@@ -307,4 +307,8 @@ number includes all victims and attackers who died as a direct result of the inc
     
 </table>
 
-
+<h3> Functie beschrijvingen </h3>
+<table>
+  <tr> Functienaam </tr>
+  <tr> Beschrijving </tr>
+ </table>
