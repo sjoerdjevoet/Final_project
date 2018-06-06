@@ -157,13 +157,11 @@ see below.) Also does not include attacks against generic business‐related. <b
 Any attack on a government building; government member, former members,
 including members of political parties in official capacities, their convoys, or events
 sponsored by political parties; political movements; or a government sponsored
-institution where the a
-
-This value includes cultural centers that have diplomatic functions, and attacks
+institutions. This value includes cultural centers that have diplomatic functions, and attacks
 against diplomatic staff and their families (when the relationship is relevant to the
-motive of the attack) and property. The United Nations is a diplomatic target.
+motive of the attack) and property. The United Nations is a diplomatic target. <br>
 
-8 = EDUCATIONAL INSTITUTION
+8 = EDUCATIONAL INSTITUTION: <br>
 Attacks against schools, teachers, or guards protecting school sites. Includes attacks
 against university professors, teaching staff and school buses. Moreover, includes
 attacks against religious schools in this value.  
@@ -172,28 +170,32 @@ attacks against students. If attacks involving students are not expressly agains
 school, university or other educational institution or are carried out in an
 educational setting, they are coded as private citizens and property.  
 Excludes attacks against military schools (attacks on military schools are coded as
-“Military,” see below).  
-9 = FOOD OR WATER SUPPLY
+“Military,” see below). </br>
+
+9 = FOOD OR WATER SUPPLY: <br>
 Attacks on food or water supplies or reserves are included in this value. This
 generally includes attacks aimed at the infrastructure related to food and water for
-human consumption.
-10 = JOURNALISTS & MEDIA
+human consumption.<br>
+
+10 = JOURNALISTS & MEDIA: <br>
 Includes, attacks on reporters, news assistants, photographers, publishers, as well as
 attacks on media headquarters and offices.
 Attacks on transmission facilities such as antennae or transmission towers, or
-broadcast infrastructure are coded as “Telecommunications,” see below.
-11 = MARITIME (INCLUDES PORTS AND MARITIME FACILITIES)
+broadcast infrastructure are coded as “Telecommunications,” see below.</br>
+
+
+11 = MARITIME (INCLUDES PORTS AND MARITIME FACILITIES): <br>
 Includes civilian maritime: attacks against fishing ships, oil tankers, ferries, yachts,
-etc. (Attacks on fishermen are coded as “Private Citizens and Property,” see below).
-12 = NGO
+etc. (Attacks on fishermen are coded as “Private Citizens and Property,” see below). <br>
+
+12 = NGO: <br>
 Includes attacks on offices and employees of non‐governmental organizations
 (NGOs). NGOs here include large multinational non‐governmental organizations
 such as the Red Cross and Doctors without Borders, as well as domestic
 organizations.
 Does not include labor unions, social clubs, student groups, and other non‐NGO
-(such cases are coded as “Private Citizens and Property”, see below).
-33
-GLOBAL TERRORISM DATABASE CODEBOOK JUNE 2016
+(such cases are coded as “Private Citizens and Property”, see below). <br>
+
 13= OTHER
 This value includes acts of terrorism committed against targets which do not fit into
 other categories. Some examples include ambulances, firefighters, refugee camps,
