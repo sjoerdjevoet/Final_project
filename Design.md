@@ -360,6 +360,7 @@ number includes all victims and attackers who died as a direct result of the inc
   <td> De Hierarchical Chart wordt geupdate op het moment dat een bepaald land wordt geselecteerd  </td>
   <td> Nvt </td>
   </tr>
-  
-  
+   
  </table>
+ <h3> Schematische weergave functies </h3>
+ ![](doc/Visualphoto.png)
