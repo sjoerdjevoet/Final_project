@@ -55,4 +55,12 @@
     <td>weapon_type</td>
     <td>Giovanni Rovelli</td>
    </tr>
+   
+     <tr>
+    <td>weapon_type</td>
+    <td>Giovanni Rovelli</td>
+   </tr>
+   
 </table>
+
+
