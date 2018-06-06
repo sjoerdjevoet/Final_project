@@ -318,6 +318,10 @@ number includes all victims and attackers who died as a direct result of the inc
   <td> Test </td>
   </tr>
    <tr>
+  <td> UpdateMap </td>
+  <td> Test </td>
+  </tr>
+   <tr>
   <td> MakePieChart </td>
   <td> Test </td>
   </tr>
@@ -340,5 +344,6 @@ number includes all victims and attackers who died as a direct result of the inc
   <td> UpdateHierarchicalChart </td>
   <td> Test </td>
   </tr>
+  
   
  </table>
