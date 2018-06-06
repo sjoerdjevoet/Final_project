@@ -11,33 +11,48 @@
     
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
+    <td>iyear</td>
     <td>Maria Anders</td>
   
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
+    <td>country</td>
     <td>Francisco Chang</td>
  
   </tr>
   <tr>
-    <td>Ernst Handel</td>
+    <td>succes</td>
     <td>Roland Mendel</td>
  
   </tr>
   <tr>
-    <td>Island Trading</td>
+    <td>suicide</td>
     <td>Helen Bennett</td>
  
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
+    <td>attack_type</td>
     <td>Yoshi Tannamuri</td>
   
   </tr>
   <tr>
-    <td>Magazzini Alimentari Riuniti</td>
+    <td>target_type</td>
     <td>Giovanni Rovelli</td>
  
   </tr>
+   <tr>
+    <td>target_nationality</td>
+    <td>Giovanni Rovelli</td>
+ 
+  </tr>
+  
+   <tr>
+    <td>group_name</td>
+    <td>Giovanni Rovelli</td>
+   </tr>
+   
+    <tr>
+    <td>weapon_type</td>
+    <td>Giovanni Rovelli</td>
+   </tr>
 </table>
