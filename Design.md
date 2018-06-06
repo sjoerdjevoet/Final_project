@@ -50,7 +50,7 @@ perpetrator did not intend to escape from the attack alive.  
   
   <tr>
     <td>attack_type</td>
-    <td>1 = ASSASSINATION
+    <td>1 = ASSASSINATION : <br>
 An act whose primary objective is to kill one or more specific, prominent
 individuals. Usually carried out on persons of some note, such as high‐
 ranking military officers, government officials, celebrities, etc. Not to include
