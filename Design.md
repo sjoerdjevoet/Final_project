@@ -313,6 +313,8 @@ number includes all victims and attackers who died as a direct result of the inc
   <th> Functienaam </th>
   <th> Beschrijving </th>
   </tr>
-  <tr> Test </tr>
-  <tr> Test </tr>
+  <tr>
+  <td> Test </td>
+  <td> Test </td>
+  </tr>
  </table>
