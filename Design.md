@@ -56,9 +56,9 @@ individuals. Usually carried out on persons of some note, such as high‐
 ranking military officers, government officials, celebrities, etc. Not to include
 attacks on non‐specific members of a targeted group. The killing of a police
 officer would be an armed assault unless there is reason to believe the
-attackers singled out a particularly prominent officer for assassination.
+attackers singled out a particularly prominent officer for assassination. <br>
   
-2 = ARMED ASSAULT
+2 = ARMED ASSAULT: <br>
 An attack whose primary objective is to cause physical harm or death directly
 to human beings by use of a firearm, incendiary, or sharp instrument (knife,
 etc.). Not to include attacks involving the use of fists, rocks, sticks, or other
@@ -66,9 +66,9 @@ handheld (less‐than‐lethal) weapons. Also includes attacks involving certain
 classes of explosive devices in addition to firearms, incendiaries, or sharp
 instruments. The explosive device subcategories that are included in this
 classification are grenades, projectiles, and unknown or other explosive
-devices that are thrown.
+devices that are thrown. <br>
   
-3 = BOMBING/EXPLOSION
+3 = BOMBING/EXPLOSION: <br>
 An attack where the primary effects are caused by an energetically unstable
 material undergoing rapid decomposition and releasing a pressure wave that
 causes physical damage to the surrounding environment. Can include either
@@ -80,10 +80,10 @@ incendiaries, or sharp objects, then the attack is coded as an armed assault
 only. The explosive device subcategories that are included in this
 classification are grenades, projectiles, and unknown or other explosive
 devices that are thrown in which the bombers are also using firearms or
-incendiary devices.
-23
-GLOBAL TERRORISM DATABASE CODEBOOK JUNE 2016
-4 = HIJACKING
+incendiary devices. <br>
+
+
+4 = HIJACKING: <br>
 An act whose primary objective is to take control of a vehicle such as an
 aircraft, boat, bus, etc. for the purpose of diverting it to an unprogrammed
 destination, force the release of prisoners, or some other political
@@ -91,14 +91,16 @@ objective. Obtaining payment of a ransom should not the sole purpose of a
 Hijacking, but can be one element of the incident so long as additional
 objectives have also been stated. Hijackings are distinct from Hostage Taking
 because the target is a vehicle, regardless of whether there are
-people/passengers in the vehicle.
-5 = HOSTAGE TAKING (BARRICADE INCIDENT)
+people/passengers in the vehicle. <br>
+
+5 = HOSTAGE TAKING (BARRICADE INCIDENT): <br>
 An act whose primary objective is to take control of hostages for the purpose
 of achieving a political objective through concessions or through disruption
 of normal operations. Such attacks are distinguished from kidnapping since
 the incident occurs and usually plays out at the target location with little or
 no intention to hold the hostages for an extended period in a separate
-clandestine location.
+clandestine location. <br>
+
 6 = HOSTAGE TAKING (KIDNAPPING)
 An act whose primary objective is to take control of hostages for the purpose
 of achieving a political objective through concessions or through disruption
