@@ -50,7 +50,8 @@ perpetrator did not intend to escape from the attack alive.  
   
   <tr>
     <td>attack_type</td>
-    <td>1 = ASSASSINATION : <br>
+    <td>
+1 = ASSASSINATION : <br>
 An act whose primary objective is to kill one or more specific, prominent
 individuals. Usually carried out on persons of some note, such as high‐
 ranking military officers, government officials, celebrities, etc. Not to include
@@ -58,6 +59,7 @@ attacks on non‐specific members of a targeted group. The killing of a police
 officer would be an armed assault unless there is reason to believe the
 attackers singled out a particularly prominent officer for assassination. <br>
   
+  
 2 = ARMED ASSAULT: <br>
 An attack whose primary objective is to cause physical harm or death directly
 to human beings by use of a firearm, incendiary, or sharp instrument (knife,
@@ -68,6 +70,7 @@ instruments. The explosive device subcategories that are included in this
 classification are grenades, projectiles, and unknown or other explosive
 devices that are thrown. <br>
   
+  
 3 = BOMBING/EXPLOSION: <br>
 An attack where the primary effects are caused by an energetically unstable
 material undergoing rapid decomposition and releasing a pressure wave that
