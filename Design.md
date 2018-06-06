@@ -315,19 +315,19 @@ number includes all victims and attackers who died as a direct result of the inc
   </tr>
   <tr>
   <td> CreateMap </td>
-  <td> Test </td>
+  <td> Deze functie zorgt ervoor dat als de data binnengehaald wordt dat een Map wordt gemaakt, waarbij doormiddel van een tooltip per land informatie kan worden bekeken. </td>
   </tr>
    <tr>
   <td> UpdateMap </td>
-  <td> Test </td>
+  <td> Deze functie zorgt ervoor dat de map op een andere wijze wordt ingevuld. Deze functie wordt aangeroepen op het moment dat de gebruiker de knop van aantal doden naar aantal aanslagen zet of vice versa. </td>
   </tr>
    <tr>
   <td> MakePieChart </td>
-  <td> Test </td>
+  <td> Deze functie zorgt voor het maken van een pie chart op basis van alle Europese landen. Hierin wordt aangegeven wat het meeste voorkomende aanvalstype is </td>
   </tr>
   <tr>
   <td> UpdatePieChart </td>
-  <td> Test </td>
+  <td> De Pie chart wordt geupdate op het moment dat er een land wordt gekozen of een andere dataset wordt ingeladen </td>
   </tr>
   <td> MakeHeatMap </td>
   <td> Test </td>
