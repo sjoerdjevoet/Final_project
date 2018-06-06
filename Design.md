@@ -21,8 +21,7 @@ initiated. </td>
   
   </tr>
       
- 
-  <tr>
+   <tr>
     <td>country</td>
     <td>This field identifies the country or location where the incident occurred.</td>
  
@@ -198,11 +197,12 @@ organizations.
 Does not include labor unions, social clubs, student groups, and other non‐NGO
 (such cases are coded as “Private Citizens and Property”, see below). <br>
 
-OTHER
+OTHER: <br>
 This value includes acts of terrorism committed against targets which do not fit into
 other categories. Some examples include ambulances, firefighters, refugee camps,
-and international demilitarized zones.
-14= PRIVATE CITIZENS & PROPERTY
+and international demilitarized zones. <br>
+
+PRIVATE CITIZENS & PROPERTY: <br>
 This value includes attacks on individuals, the public in general or attacks in public
 areas including markets, commercial streets, busy intersections and pedestrian
 malls.
@@ -217,57 +217,57 @@ includes incidents involving political supporters as private citizens and proper
 provided that these supporters are not part of a government‐sponsored event.
 Finally, this value includes police informers.
 Does not include attacks causing civilian casualties in businesses such as restaurants,
-cafes or movie theaters (these categories are coded as “Business” see above).
+cafes or movie theaters (these categories are coded as “Business” see above). <br>
   
-RELIGIOUS FIGURES/INSTITUTIONS
+RELIGIOUS FIGURES/INSTITUTIONS: <br>
 This value includes attacks on religious leaders, (Imams, priests, bishops, etc.),
 religious institutions (mosques, churches), religious places or objects (shrines, relics,
 etc.). This value also includes attacks on organizations that are affiliated with
 religious entities that are not NGOs, businesses or schools.
 Attacks on religious pilgrims are considered “Private Citizens and Property;” attacks
-on missionaries are considered religious figures.
+on missionaries are considered religious figures. <br>
 
-TELECOMMUNICATION
+TELECOMMUNICATION: <br>
 This includes attacks on facilities and infrastructure for the transmission of
 information. More specifically this value includes things like cell phone towers,
 telephone booths, television transmitters, radio, and microwave towers.  
 17 = TERRORISTS/NON‐STATE MILITIAS
 Terrorists or members of identified terrorist groups within the GTD are included in
 this value. Membership is broadly defined and includes informants for terrorist
-groups, but excludes former or surrendered terrorists.  
+groups, but excludes former or surrendered terrorists. <br>
 
-TOURISTS
+TOURISTS: <br>
 This value includes the targeting of tour buses, tourists, or “tours.”  Tourists are
 persons who travel primarily for the purposes of leisure or amusement. Government
 tourist offices are included in this value.
 The attack must clearly target tourists, not just an assault on a business or
 transportation system used by tourists. Travel agencies are coded as business
-targets.
+targets. <br>
 
-TRANSPORTATION (OTHER THAN AVIATION)
+TRANSPORTATION (OTHER THAN AVIATION): <br>
 Attacks on public transportation systems are included in this value. This can include
 efforts to assault public buses, minibuses, trains, metro/subways, highways (if the
 highway itself is the target of the attack), bridges, roads, etc.  
 The GTD contains a number of attacks on generic terms such as “cars” or “vehicles.”  
 These attacks are assumed to be against “Private Citizens and Property” unless
 shown to be against public transportation systems. In this regard, buses are
-assumed to be public transportation unless otherwise noted.
+assumed to be public transportation unless otherwise noted.<br>
 
-UNKNOWN
-The target type cannot be determined from the available information.
+UNKNOWN: <br>
+The target type cannot be determined from the available information.<br>
 
-UTILITIES
+UTILITIES: <br>
 This value pertains to facilities for the transmission or generation of energy. For
 example, power lines, oil pipelines, electrical transformers, high tension lines, gas
 and electric substations, are all included in this value. This value also includes
 lampposts or street lights.  
 Attacks on officers, employees or facilities of utility companies excluding the type of
-facilities above are coded as business.
+facilities above are coded as business.<br>
 
-VIOLENT POLITICAL PARTIES
+VIOLENT POLITICAL PARTIES: <br>
 This value pertains to entities that are both political parties (and thus, coded as
 “government” in this coding scheme) and terrorists. It is operationally defined as
-groups that engage in electoral politics and appear as “Perpetrators” in the GTD. </td>
+groups that engage in electoral politics and appear as “Perpetrators” in the GTD.<br> </td>
   
   </tr>
   
