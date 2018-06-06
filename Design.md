@@ -323,7 +323,7 @@ number includes all victims and attackers who died as a direct result of the inc
   <td> UpdateMap </td>
   <td> Deze functie zorgt ervoor dat de map op een andere wijze wordt ingevuld. Deze functie wordt aangeroepen op het moment dat de gebruiker de knop van aantal doden naar aantal aanslagen zet of vice versa. </td>
   </tr>
-  <td> Niet van toepassing </td>
+  <td> Nvt </td>
    <tr>
   <td> MakePieChart </td>
   <td> Deze functie zorgt voor het maken van een pie chart op basis van alle Europese landen. Hierin wordt aangegeven wat het meeste voorkomende aanvalstype is </td>
@@ -332,13 +332,16 @@ number includes all victims and attackers who died as a direct result of the inc
   <tr>
   <td> UpdatePieChart </td>
   <td> De Pie chart wordt geupdate op het moment dat er een land wordt gekozen of een andere dataset wordt ingeladen </td>
+     <td> Nvt </td>
   </tr>
   <td> MakeHeatMap </td>
   <td> Deze wordt gemaakt voor de Europese landen </td>
+   <td> https://bl.ocks.org/Bl3f/cdb5ad854b376765fa99 </td>
   </tr>
    <tr>
   <td> UpdateHeatMap </td>
   <td> De HeatMap wordt geupdate op het moment dat een bepaald land wordt geselecteerd </td>
+  <td> Nvt </td>
   </tr>
    <tr>
   <td> MakeHierarchicalChart </td>
