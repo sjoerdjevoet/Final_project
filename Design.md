@@ -314,7 +314,23 @@ number includes all victims and attackers who died as a direct result of the inc
   <th> Beschrijving </th>
   </tr>
   <tr>
-  <td> Test </td>
+  <td> CreateMap </td>
   <td> Test </td>
   </tr>
+   <tr>
+  <td> MakePieChart </td>
+  <td> Test </td>
+  </tr>
+  <tr>
+  <td> UpdatePieChart </td>
+  <td> Test </td>
+  </tr>
+  <td> MakeHeatMap </td>
+  <td> Test </td>
+  </tr>
+   </tr>
+  <td> MakeHierarchicalChart </td>
+  <td> Test </td>
+  </tr>
+  
  </table>
