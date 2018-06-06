@@ -33,8 +33,7 @@
   <tr>
     <td>attack_type</td>
     <td>Yoshi Tannamuri</td>
-  
-  </tr>
+    </tr>
   <tr>
     <td>target_type</td>
     <td>Giovanni Rovelli</td>
@@ -47,7 +46,7 @@
   </tr>
   
    <tr>
-    <td>group_name</td>
+    <td>weapon_type</td>
     <td>Giovanni Rovelli</td>
    </tr>
    
@@ -56,11 +55,13 @@
     <td>Giovanni Rovelli</td>
    </tr>
    
-     <tr>
-    <td>weapon_type</td>
+   
+   <tr>
+    <td>group_name</td>
     <td>Giovanni Rovelli</td>
    </tr>
    
+    
 </table>
 
 
