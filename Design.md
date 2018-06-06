@@ -309,6 +309,10 @@ number includes all victims and attackers who died as a direct result of the inc
 
 <h3> Functie beschrijvingen </h3>
 <table>
-  <tr> Functienaam </tr>
-  <tr> Beschrijving </tr>
+  <tr>
+  <th> Functienaam </th>
+  <th> Beschrijving </th>
+  </tr>
+  <tr> Test </tr>
+  <tr> Test </tr>
  </table>
