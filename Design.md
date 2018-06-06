@@ -269,7 +269,8 @@ groups that engage in electoral politics and appear as “Perpetrators” in the
   
   <tr>
     <td>target_nationality</td>
-    <td>Yoshi Tannamuri</td>
+    <td>This is the nationality of the target that was attacked, and is not necessarily the
+same as the country in which the incident occurred, although in most cases it is.</td>
     </tr>
     
     
