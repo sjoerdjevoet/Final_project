@@ -322,9 +322,9 @@ number includes all victims and attackers who died as a direct result of the inc
    <tr>
   <td> UpdateMap </td>
   <td> Deze functie zorgt ervoor dat de map op een andere wijze wordt ingevuld. Deze functie wordt aangeroepen op het moment dat de gebruiker de knop van aantal doden naar aantal aanslagen zet of vice versa. </td>
+     <td> Nvt </td>
   </tr>
-  <td> Nvt </td>
-   <tr>
+    <tr>
   <td> MakePieChart </td>
   <td> Deze functie zorgt voor het maken van een pie chart op basis van alle Europese landen. Hierin wordt aangegeven wat het meeste voorkomende aanvalstype is </td>
      <td> https://bl.ocks.org/mbostock/3887235 </td>
@@ -346,10 +346,12 @@ number includes all victims and attackers who died as a direct result of the inc
    <tr>
   <td> MakeHierarchicalChart </td>
   <td> De Hierarchical Chart wordt gemaakt als gemiddelde van de Europese landen </td>
+  <td> https://bl.ocks.org/mbostock/1283663 </td>
   </tr>
   <tr>
   <td> UpdateHierarchicalChart </td>
   <td> De Hierarchical Chart wordt geupdate op het moment dat een bepaald land wordt geselecteerd  </td>
+  <td> Nvt </td>
   </tr>
   
   
