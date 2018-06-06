@@ -312,37 +312,41 @@ number includes all victims and attackers who died as a direct result of the inc
   <tr>
   <th> Functienaam </th>
   <th> Beschrijving </th>
+    <th> Voorbeeld source om te gebruiken <th>
   </tr>
   <tr>
   <td> CreateMap </td>
   <td> Deze functie zorgt ervoor dat als de data binnengehaald wordt dat een Map wordt gemaakt, waarbij doormiddel van een tooltip per land informatie kan worden bekeken. </td>
+    <td> https://github.com/leakyMirror/map-of-europe </td>
   </tr>
    <tr>
   <td> UpdateMap </td>
   <td> Deze functie zorgt ervoor dat de map op een andere wijze wordt ingevuld. Deze functie wordt aangeroepen op het moment dat de gebruiker de knop van aantal doden naar aantal aanslagen zet of vice versa. </td>
   </tr>
+  <td> Niet van toepassing </td>
    <tr>
   <td> MakePieChart </td>
   <td> Deze functie zorgt voor het maken van een pie chart op basis van alle Europese landen. Hierin wordt aangegeven wat het meeste voorkomende aanvalstype is </td>
+     <td> https://bl.ocks.org/mbostock/3887235 </td>
   </tr>
   <tr>
   <td> UpdatePieChart </td>
   <td> De Pie chart wordt geupdate op het moment dat er een land wordt gekozen of een andere dataset wordt ingeladen </td>
   </tr>
   <td> MakeHeatMap </td>
-  <td> Test </td>
+  <td> Deze wordt gemaakt voor de Europese landen </td>
   </tr>
    <tr>
   <td> UpdateHeatMap </td>
-  <td> Test </td>
+  <td> De HeatMap wordt geupdate op het moment dat een bepaald land wordt geselecteerd </td>
   </tr>
    <tr>
   <td> MakeHierarchicalChart </td>
-  <td> Test </td>
+  <td> De Hierarchical Chart wordt gemaakt als gemiddelde van de Europese landen </td>
   </tr>
   <tr>
   <td> UpdateHierarchicalChart </td>
-  <td> Test </td>
+  <td> De Hierarchical Chart wordt geupdate op het moment dat een bepaald land wordt geselecteerd  </td>
   </tr>
   
   
