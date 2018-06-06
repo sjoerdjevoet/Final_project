@@ -1,11 +1,14 @@
 <h1>Design document</h1>
 
-<h2> Data Transformation </h2>
+<h2> Data Source </h2>
 <p> De data die ik gebruik komt van: National Consortium for the Study of Terrorism and Responses to Terrorism (START). (2016). Global Terrorism Database [Data file]. Retrieved from https://data.world/alexcl/global-terrorism-database.  </p>
 <p> Beschrijvingen van de variabelen komt uit het volgende document: https://data.world/data-society/global-terrorism-data/workspace/file?filename=Codebook.pdf
+  
+<h2> Transformatie Data </h2>
+<p> De data is beschikbaar in een online database. Doormiddel van een sql query heb ik de relevante variabelen en landen eruit getrokken, vervolgens heb ik hiervan een csv laten exporteren en op basis van deze csv file heb ik json objecten gemaakt </p>
 
 
-<h3> Beschrijving variabelen </h3>
+<h2> Beschrijving variabelen </h2>
 <table>
   <tr>
     <th>Variabele naam</th>
