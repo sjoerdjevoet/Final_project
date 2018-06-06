@@ -276,33 +276,32 @@ same as the country in which the incident occurred, although in most cases it is
     
   <tr>
     <td>group_name</td>
-    <td>Giovanni Rovelli</td>
+    <td>Group responsible for the attack</td>
    </tr>
    
-   
-   
+     
    <tr>
     <td>weapon_type</td>
-    <td>Giovanni Rovelli</td>
- 
-  </tr>
+    <td>Weapon used during assault</td>
+   </tr>
   
    <tr>
     <td>nkill</td>
-    <td>Giovanni Rovelli</td>
+    <td>This field stores the number of total confirmed fatalities for the incident. The
+number includes all victims and attackers who died as a direct result of the incident.  </td>
    </tr>
    
    
    <tr>
     <td>date</td>
-    <td>Giovanni Rovelli</td>
+    <td> Date of attack </td>
    </tr>
    
    
    
    <tr>
     <td>month</td>
-    <td>Giovanni Rovelli</td>
+    <td>Month of attack</td>
    </tr>
    
     
