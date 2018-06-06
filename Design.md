@@ -7,7 +7,7 @@
 <h2> Transformatie Data </h2>
 <p> De data is beschikbaar in een online database. Doormiddel van een sql query heb ik de relevante variabelen en landen eruit getrokken, vervolgens heb ik hiervan een csv laten exporteren en op basis van deze csv file heb ik json objecten gemaakt </p>
 
- ![](doc/Knipsel.png)
+ ![](doc/Knipsel.PNG)
 
 
 <h2> Beschrijving variabelen </h2>
