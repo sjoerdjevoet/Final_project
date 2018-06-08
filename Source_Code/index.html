@@ -1,0 +1,70 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+  <link href="dashboard.css" rel="stylesheet">
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="#">Terrorisme in Europa</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="https://github.com/sjoerdjevoet/Data_Processing_Sjoerd/blob/master/Data_Processing_Sjoerd/Programming_assignments/week5_6/Design_Choices_Data_Processing_Sjoerd.pdf">Dreiging terrorisme <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" href="#!" data-toggle="modal" data-target="#exampleModalLong">Test 123 <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" href="https://github.com/sjoerdjevoet/Data_Processing_Sjoerd/blob/master/Data_Processing_Sjoerd/Programming_assignments/week5_6/Sources_Used.pdf">Test 123 <span class="sr-only">(current)</span></a>
+         </li>
+
+
+         <li class="nav-item">
+           <a class="nav-link disabled">Author Sjoerd Zagema</a>
+         </li>
+         <div c>
+
+                             <!-- Data selector -->
+                             <select autocomplete="off" class="btn btn-primary" id ='selectBox' onchange="">
+                               <option value="2017.json">period after 2000</option>
+                               <option value="2016.json">period before 2000</option>
+
+                             </select>
+                         </div>
+
+       </ul>
+
+
+         <div class="row">
+           <div class="col-xs-12">
+                     <div class="btn-group btn-group-vertical" data-toggle="buttons">
+               <label class="btn active">
+                 <input type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span> aanslagen</span>
+               </label>
+               <label class="btn">
+                 <input type="radio" name='gender1'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> doden</span>
+               </label>
+             </div>
+
+           </div>
+
+
+       <!--Checkbox butons-->
+       <h1 id= 'map_title'> </h1>
+     </div>
+   </nav>
+  <div id = "map"> </div>
+  <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="//d3js.org/topojson.v3.min.js"></script>
+ <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+
+  <script src="terror.js" charset="utf-8"></script>
+</body>
+</html>
