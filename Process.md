@@ -14,3 +14,19 @@ working on: Dictonary maken van het aantal aanslagen en het aantal doden per Eur
 
 issues: Datamaps biedt alleen de mogelijkheid om op basis van het land_id te kunnen koppelen aan de data. Ik wil op basis van de landnaam kunnen koppelen. Ben nu dus bezig om te kijken hoe dit het beste kan.
 </p>
+
+<h2> Dag 4 </h2> 
+<p> status: Bezig met het maken van de Map
+
+working on: Tooltip voor map
+
+issues: json land koppelen aan data land, zonder gebruik te maken van een uniek ID.
+</p>
+
+<h2> Dag 5 </h2> 
+<p> status: Tooltip af
+
+working on: Legend map en slider
+
+issues: Schaling map (extreme waarden)
+</p>
