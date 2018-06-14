@@ -27,44 +27,43 @@
 
 
          <li class="nav-item">
-           <a class="nav-link disabled">Author Sjoerd Zagema</a>
+           <a class="nav-link disabled">Author Sjoerd</a>
          </li>
-         <div c>
+         <div>
+         <form >
 
-                             <!-- Data selector -->
-                             <select autocomplete="off" class="btn btn-primary" id ='selectBox' onchange="">
-                               <option value="2017.json">period after 2000</option>
-                               <option value="2016.json">period before 2000</option>
 
-                             </select>
-                         </div>
+                                <div class="input-group">
+                                   <div class="btn-group radio-group">
+                                      <label class="btn btn-primary not-active">Aanslagen <input type="radio" value="male" name="gender"></label>
+                                      <label class="btn btn-primary not-active">Doden <input type="radio" value="female" name="gender"></label>
+                                   </div>
+                                </div>
+                           </div>
+                     </form>
 
        </ul>
-
-
-         <div class="row">
-           <div class="col-xs-12">
-                     <div class="btn-group btn-group-vertical" data-toggle="buttons">
-               <label class="btn active">
-                 <input type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span> aanslagen</span>
-               </label>
-               <label class="btn">
-                 <input type="radio" name='gender1'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> doden</span>
-               </label>
-             </div>
-
-           </div>
-
-
-       <!--Checkbox butons-->
-       <h1 id= 'map_title'> </h1>
+       <form class="form-inline my-2 my-lg-0">
+         <input class="form-control mr-sm-2" type="search" placeholder="Search country" aria-label="Search">
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+       </form>
      </div>
    </nav>
-  <div id = "map"> </div>
+
+<div class="container">
+     <div class="row">
+       <div id="sliderContainer" class="col-9">  <input id="timeslide" type="range" min="0" max="3" value="0" step="1"/>
+                   <span id="range">1975-1985</span></div>
+        <div id= "map" class="col-12"></div>
+          <div  id="chart" class="col-4"></div>
+     </div>
+ <div class="row">
+   <div  id="chart" class="col-4"></div>
+   </div>
+
   <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script src="//d3js.org/topojson.v3.min.js"></script>
  <script src="https://d3js.org/d3-queue.v3.min.js"></script>
-
   <script src="terror.js" charset="utf-8"></script>
 </body>
 </html>

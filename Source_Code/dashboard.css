@@ -1,94 +1,85 @@
 #map {
-    text-align: left;
-    width: 100%;
+    position: relative;
+
+    border: 3px solid #73AD21;
+}
+
+#sliderContainer {
+  position: relative;
+
 }
 
 svg {
-
-    background: #efefef;
+    border-radius: 6px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 5px #ddd;
+    position: relative;
 }
 
+.axis_legend path, .axis_legend tick, .axis_legend line {
+    fill: none;
+    stroke: none;
+}
+
+.legendTitle {
+    text-anchor: middle;
+    font-size: 1.25rem;
+    fill: #000;
+    font-weight: 300;
+}
+.axis_legend text {
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+.country:hover {
+    opacity: .8;
+    stroke-width: 2px;
+    cursor: pointer;
+}
 .hidden {
       display: none;
   }
   div.tooltip {
-      color: #222;
-      background-color: #fff;
-      padding: .5em;
-      text-shadow: #f5f5f5 0 1px 0;
-      border-radius: 2px;
-      opacity: 0.9;
-      position: absolute;
+
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    opacity: 0.9;
+    position: absolute;
+    text-align: justify;
+
   }
 
-  label.btn span {
-  font-size: 1.5em ;
-}
+  .legendWrapper{
+position: relative;
+  }
 
-label input[type="radio"] ~ i.fa.fa-circle-o{
-    color: #c8c8c8;    display: inline;
+  .tooltipper {
+	background: #eee;
+	box-shadow: 0 0 5px #999999;
+	color: #333;
+	font-size: 12px;
+	left: 130px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 95px;
+	width: 130px;
+	z-index: 10;
+	display: block;
+	opacity: 0;
 }
-label input[type="radio"] ~ i.fa.fa-dot-circle-o{
-    display: none;
+.legend {
+	font-size: 12px;
 }
-label input[type="radio"]:checked ~ i.fa.fa-circle-o{
-    display: none;
+rect {
+	cursor: pointer;                                              /* NEW */
+	stroke-width: 2;
 }
-label input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
-    color: #7AA3CC;    display: inline;
-}
-label:hover input[type="radio"] ~ i.fa {
-color: #7AA3CC;
-}
-
-label input[type="checkbox"] ~ i.fa.fa-square-o{
-    color: #c8c8c8;    display: inline;
-}
-label input[type="checkbox"] ~ i.fa.fa-check-square-o{
-    display: none;
-}
-label input[type="checkbox"]:checked ~ i.fa.fa-square-o{
-    display: none;
-}
-label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o{
-    color: #7AA3CC;    display: inline;
-}
-label:hover input[type="checkbox"] ~ i.fa {
-color: #7AA3CC;
-}
-
-div[data-toggle="buttons"] label.active{
-    color: #7AA3CC;
-}
-
-div[data-toggle="buttons"] label {
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0;
-font-size: 14px;
-font-weight: normal;
-line-height: 2em;
-text-align: left;
-white-space: nowrap;
-vertical-align: top;
-cursor: pointer;
-background-color: none;
-border: 0px solid
-#c8c8c8;
-border-radius: 3px;
-color: #c8c8c8;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
-}
-
-div[data-toggle="buttons"] label:hover {
-color: #7AA3CC;
-}
-
-div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
--webkit-box-shadow: none;
-box-shadow: none;
+rect.disabled {                                                 /* NEW */
+	fill: transparent !important;                                 /* NEW */
 }
