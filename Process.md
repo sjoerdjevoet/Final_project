@@ -38,3 +38,8 @@ Bezig geweest met bootstrap om te kijken hoe ik mijn visualisaties moet inschale
 <h2> Dag 9 </h2> 
 <p> Ben een hele dag bezig geweest om het aantal doden te kunnen optellen per land. Mijn eerste aanpak was om dynamisch arrays bij te laten maken met een bepaalde landnaam om zo de waarden van de doden in te kunnen laten vullen in een array en vervolgens te summeren. Deze aanpak werkte niet. De dynamische arrays aanmaken op basis van hoeveel landen er zijn voor de gegeven periode met bijbehorende landnaam lukte wel. Doormiddel van window, maar bij het pushen van het aantal doden naar de arrays kwam een probleem naar voren. Het pushen naar een array lukte namelijk niet. De foutmelding: ……push is not a function kwam regelmatig op mijn scherm. Ik kwam er uiteindelijk achter dat ik deze foutmelding kreeg omdat de functie push een string kreeg en geen object. Terwijl de landnamen duidelijk objecten waren. Typecasten naar een object werkte niet en dus had ik een nieuwe aanpak nodig. Ik besloot om een dictinoray te maken met landnamen en betreffende doden. Het probleem hiervan is dat er duplicerende landennamen worden opgenomen in de dict. Dit probleem heb ik opgelost door de dict te groeperen op keys en de bijbehorende values te summeren.
 </p>
+
+
+<h2> Dag 10 </h2> 
+<p> Ben bezig geweest om het aantal doden en het aantal aanslagen dynamisch te maken met de slider
+</p>
