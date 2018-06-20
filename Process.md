@@ -43,3 +43,8 @@ Bezig geweest met bootstrap om te kijken hoe ik mijn visualisaties moet inschale
 <h2> Dag 10 </h2> 
 <p> Ben bezig geweest om het aantal doden en het aantal aanslagen dynamisch te maken met de slider
 </p>
+
+<h2> Dag 11 </h2> 
+<p> Ben bezig geweest om de heatmap te maken, het was veel gezeik om dit in elkaar te zetten. Het is nu nog steeds niet helemaal af. Ik was met name lang bezig om de data goed te krijgen. Dit is nu nog steeds niet helemaal goed.
+</p>
+
