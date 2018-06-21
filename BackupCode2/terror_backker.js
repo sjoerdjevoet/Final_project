@@ -4,6 +4,7 @@ var totaaldoden = 0
 var countrylist = []
 var dictaanslagen_for_map =[]
 var dictforpiechart = []
+var dict_for_doden;
 var global_data;
 var data_75_85 = "1975_1985_period.json"
 var data_85_95 = "1985_1995_period.json"
@@ -14,6 +15,47 @@ var inputValue = null;
 var time = ["1975-1985","1985-1995","1995-2005","2005-2015"];
 
 
+var margin = {top: 50, right: 50, bottom: 50, left:50},
+      width = 800 - margin.right - margin.left,
+      height = 800 - margin.top - margin.bottom;
+
+var svg = d3.select("#map")
+       //
+       .append("svg")
+       .attr ({
+       "width": width + margin.right + margin.left,
+       "height": height + margin.top + margin.bottom
+       })
+
+
+       .append("g")
+       .attr("transform","translate(" + margin.left + "," + margin.right + ")");
+console.log(svg);
+
+       // init tooltip
+         var tooltip = d3.select("#map")
+             .append("div")
+             .attr("class", "tooltip hidden");
+
+             // offsets needed for tooltip
+          var offsetL = document.getElementById("map").offsetLeft - 70;
+          var offsetT = document.getElementById("map").offsetTop + 10;
+
+       // color scale for map
+   var color = d3.scale.quantize()
+       .range(["#006600", "#2EAB66", "#BAD15E", "#FCEB12", "#FFC912", "#EB5C1C", "#D63030", "#A62430", "#990000"]);
+
+
+       // define map projection
+         var projection = d3.geo.mercator()
+             .center([13, 52])
+             .scale(900);
+
+         var path = d3.geo.path()
+             .projection(projection);
+
+
+LoadData("1975_1985_period.json")
 
 if (document.getElementById("range").innerHTML == "1975-1985") {
         jsonfile = "1995_2005_period.json"
@@ -22,13 +64,16 @@ d3.select("#timeslide").on("input", function() {
     update(+this.value)
 
     function update(value) {
+
+      d3.selectAll('#chart').remove();
+      d3.selectAll('#map').remove();
+
       document.getElementById("range").innerHTML=time[value];
         inputValue = time[value];
         console.log("Waarde inputvalue "+ inputValue);
 
     if (value == 0) {
       jsonfile = "1975_1985_period.json";
-
 
       }
     if (value == 1) {// alert(value);
@@ -40,11 +85,17 @@ d3.select("#timeslide").on("input", function() {
           }
           if (value == 4) {
               jsonfile = "2005_2015_period.json";
-
             }
+            console.log(jsonfile);
+
+                       LoadData(jsonfile)
           }
+
 })
 
+function LoadData(jsonfile){
+  jsonfile = jsonfile
+  console.log(jsonfile);
 d3.json(jsonfile, function (error,data) {
 
 global_data = data;
@@ -65,12 +116,18 @@ global_data = data;
 ListForAanslagen(global_data)
 ListFordoden(global_data)
 ListforPiechart(global_data)
-var inputData = [{label:"Category 6",value:25},{label:"Category 2",value:12},{label:"Category 3",value:35},{label:"Category 4",value:30},{label:"Category 5",value:18}];
 
 var colorScheme = ["#E57373","#BA68C8","#7986CB","#A1887F","#90A4AE","#AED581","#9575CD","#FF8A65","#4DB6AC","#FFF176","#64B5F6","#00E676"];
 renderPieChart(dictforpiechart,"#chart",colorScheme);
 
+d3.queue()
+.defer(d3.json, "world.json")
+.defer(d3.json, jsonfile)
+.await(makeMap);
+
 })
+}
+
 
 
 function ListForAanslagen(global_data) {
@@ -105,42 +162,64 @@ function ListForAanslagen(global_data) {
           "Aanslagen" : cnt
         });
     }
-    console.log(dictaanslagen_for_map);
-console.log(dictaanslagen_for_map[0].Country);
-console.log(global_data[0].country_txt);
+  //  console.log(dictaanslagen_for_map);
+//console.log(dictaanslagen_for_map[0].Country);
+//console.log(global_data[0].country_txt);
 }
 
 function ListFordoden(global_data) {
   global_data = global_data
 var listy = []
-var countydeads = 0
+var otherlist= []
+var countydeads = 0;
+values = [];
 
 
 for (var i = 0; i < dictaanslagen_for_map.length; i++){
-  country = dictaanslagen_for_map[0].Country
+  country = dictaanslagen_for_map[i].Country
 
   for (var j = 0; j < global_data.length; j++){
 countryjson = global_data[j].country_txt
 
-if (country == countryjson){
-  console.log(global_data[j].nkill);
-      listy.push(global_data[j].nkill)
-      break;
+if (country == countryjson & global_data[j].nkill != 0){
+
+  listy.push({
+
+      "Country" : country,
+      "Doden" : global_data[j].nkill
+    });
+
+
+//console.log(values);
+    /*if (listy[j].country == country)
+        {
+            values.push(listy[i].value);
+        }*/
+//console.log("blbla"+Object.keys('Albania'))
+
+
+}
 }
 
-  }
 }
-console.log(listy);
-var sum = 0, listy;
-for (var i = listy.length; !!i--;){
-sum += listy[i];
+
+
+var linq = Enumerable.From(listy);
+dict_for_doden =
+    linq.GroupBy(function(x){ return x.Country; })
+        .Select(function(x){
+          return {
+            Phase: x.Key(),
+            Value: x.Sum(function(y){ return y.Doden|0; })
+          };
+        }).ToArray();
+        console.log(dict_for_doden);
 }
-console.log(sum);
-}
+
 
 function ListforPiechart(global_data) {
   global_data = global_data
-
+dictforpiechart = []
 var lijst_attacktypes = []
 for (i = 0; i< global_data.length; i++){
   var check = global_data[i].attack_type
@@ -179,10 +258,6 @@ if (cnt > 0) {
 console.log(dictforpiechart);
 }
 
-function MakePieChart(){
-
-
-}
 
 
 
@@ -210,6 +285,7 @@ function renderPieChart (dataset,dom_element_to_append_to, colorScheme){
 		.append("g")
 		.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
+console.log(svg);
 		var arc = d3.svg.arc()
 		.outerRadius(radius - 10)
 		.innerRadius(radius - donutWidth);
@@ -328,49 +404,6 @@ function renderPieChart (dataset,dom_element_to_append_to, colorScheme){
 	};
 
 
-var margin = {top: 50, right: 50, bottom: 50, left:50},
-      width = 800 - margin.right - margin.left,
-      height = 800 - margin.top - margin.bottom;
-
-var svg = d3.select("#map")
-       //
-       .append("svg")
-       .attr ({
-       "width": width + margin.right + margin.left,
-       "height": height + margin.top + margin.bottom
-       })
-
-       .append("g")
-       .attr("transform","translate(" + margin.left + "," + margin.right + ")");
-
-
-       d3.queue()
-       .defer(d3.json, "world.json")
-       .defer(d3.json, jsonfile)
-       .await(makeMap);
-
-
-       // init tooltip
-         var tooltip = d3.select("#map")
-             .append("div")
-             .attr("class", "tooltip hidden");
-
-             // offsets needed for tooltip
-          var offsetL = document.getElementById("map").offsetLeft - 70;
-          var offsetT = document.getElementById("map").offsetTop + 10;
-
-       // color scale for map
-   var color = d3.scale.quantize()
-       .range(["#006600", "#2EAB66", "#BAD15E", "#FCEB12", "#FFC912", "#EB5C1C", "#D63030", "#A62430", "#990000"]);
-
-       // define map projection
-         var projection = d3.geo.mercator()
-             .center([13, 52])
-             .translate([width / 2, height / 2])
-             .scale(900);
-
-         var path = d3.geo.path()
-             .projection(projection);
 
 function makeMap(error,data){
 

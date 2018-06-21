@@ -1,6 +1,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
   <link href="dashboard.css" rel="stylesheet">
 
@@ -50,17 +51,21 @@
      </div>
    </nav>
 
-<div class="container">
      <div class="row">
        <div id="sliderContainer" class="col-9">  <input id="timeslide" type="range" min="0" max="3" value="0" step="1"/>
                    <span id="range">1975-1985</span></div>
-        <div id= "map" class="col-12"></div>
-          <div  id="chart" class="col-4"></div>
+        <div id= "map" class="col-6" style="width:100px"> </div></div>
+
      </div>
  <div class="row">
    <div  id="chart" class="col-4"></div>
    </div>
-
+ </div>
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/linq.js/2.2.0.2/linq.js"></script>
   <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script src="//d3js.org/topojson.v3.min.js"></script>
  <script src="https://d3js.org/d3-queue.v3.min.js"></script>
