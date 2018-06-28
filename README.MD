@@ -7,6 +7,7 @@ Minor Programmeren UvA 2018  <br>
 
 [Final Application](https://sjoerdjevoet.github.io/Final_project/)
 
+[Demonstration application](https://www.youtube.com/watch?v=67N8MmLv_LQ)
 <h2>Introduction</h2>
 
 <p>People have the "feeling" that there are more terror attacks taken place nowadays (Motivaction, 2018). They also believe that the nature of terrorism has changed (Wright, 2017). The following assumptions people have: firstly, that the weapons terrorists use are different. Secondly, that the group of terrorist are different and lastly that the attack types are finding place in different periods. </p>
