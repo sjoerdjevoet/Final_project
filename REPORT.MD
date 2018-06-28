@@ -19,7 +19,7 @@ The heatmap displays the five different targettypes with respect to a given mont
 The more attacks there have been, the darker the sqaure becomes. By hovering the square you see the exact amount of attacks.
 
 ## Technical design
-The website starts with a modal. This is to make sure the user immediately has te change to read about the application. The user can click on the map, where after three visualisations appear (if there is any data, otherwise the user will recieve an error message).
+The website starts with a modal. This is to make sure the user immediately has thee change to learn about the application. The user can click on the map, where after three visualisations appear (if there is any data, otherwise the user will recieve an error message).
 It is also possible to go to different time periods, with the slider. When the users clicks on another country or uses the slider the 'old' visualtions are removed.
 
 
@@ -32,5 +32,5 @@ Thirdly, i head about updateChoropleth and implemented it, however when sliding 
 Lastly, i finally figured out that you could set the countries to default colors which do not appear in your list. This saved my day
 
 ## Decisions
-I was a bit to ambitious with my MVP, therefore i couldn't deliver some functionalities. However it still matches the requirements.
+I was a bit to ambitious with my MVP, therefore i couldn't deliver some functionalities. However it still matches the requirements. I am satisfied with the limited code redundancy, I use a lot of functions.
 
