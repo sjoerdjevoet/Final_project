@@ -29,7 +29,7 @@ Minor Programmeren UvA 2018  <br>
 
 <h2> Oplossing </h2>
 
-![](doc/Visualphoto.png)
+![](doc/Finalthing.png)
 
 <h4> De uitleg hieronder behoort tot de MVP: </h4>
 <p> De kaart linksbovenin wordt gekleurd door het aantal doden of aanslagen. De gebruiker heeft de mogelijkheid om doormiddel van een knop deze keuze te maken. Op het moment dat er op een land geklikt wordt (in dit voorbeeld Engeland) wordt een tooltip zichtbaar met daarin de naam van het land en het aantal. Tegelijktijd worden verschillende visualties geupdate op basis van het gekozen land.  </p>
