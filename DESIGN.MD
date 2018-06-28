@@ -6,10 +6,6 @@ It is possible to download the sources within the application.
 
 
 ### Functions and operations  
-
-
-
-##### Table 1. Preperation functions  
 <br><br>
 
 | Function name   | Description  | File name  |
@@ -19,8 +15,8 @@ It is possible to download the sources within the application.
 | prepareBarchart | collects information about countries with regard to the terror groups | preparedata.js  | 
 | prepareDonutchart  | collects information about countries with regard to the attack types | preparedata.js  | 
 | prepareHeatmap | collects information about countries with regard to target type and the corresponding month | preparedata.js  |  
-
-##### Table 2. Key functions  
+##### Table 1. Preperation functions  
+  
 <br><br>
 
 | Function name   | Description  | File name  |
@@ -30,8 +26,8 @@ It is possible to download the sources within the application.
 | createDonutchart | uses the prepareDonutchart to create the map | dashboard.js | 
 | createBarchart  | uses the prepareBarchart to create the map | dashboard.js  | 
 | createMap | Map is created with datamaps which uses a variable map | dashboard.js  | 
+##### Table 2. Key functions
 
-##### Table 3. Other functions  
 <br><br>
 
 | Function name   | Description  
@@ -42,6 +38,8 @@ It is possible to download the sources within the application.
 | scrollToView  | function to scroll to different div elements 
 | checkDataCountry | returning boolean; checking if country has data 
 
+##### Table 3. Other functions  
+<br><br>
 ### D3 plugins
 - d3.TopoJSON
 - d3.queue
