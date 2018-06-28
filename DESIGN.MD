@@ -4,9 +4,9 @@
 
 It is possible to download the sources within the application.
 
-<br><br>
+
 ### Functions and operations  
-<br><br>
+
 
 
 ##### Table 1. Preperation functions  
