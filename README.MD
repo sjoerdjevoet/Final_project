@@ -5,7 +5,7 @@ Sjoerd Zagema <br>
 Programmeerproject <br>
 Minor Programmeren UvA 2018  <br>
 
-[Final Application](https://sjoerdjevoet.github.io/Final_project/)
+[Final application](https://sjoerdjevoet.github.io/Final_project/)
 
 [Demonstration application](https://www.youtube.com/watch?v=67N8MmLv_LQ)
 <h2>Introduction</h2>
