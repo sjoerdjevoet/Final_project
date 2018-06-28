@@ -10,7 +10,7 @@ Example
 /*
  *  Sammy Heutz
  *  10445765
- * 
+ *
  * Barchart.js contains the functions that creates the barchart via index.js
 **/
 ```
@@ -37,7 +37,7 @@ Example
 ```javascript
 
 var x = 10, y = 15;
-for (var i = 0; i < data.length; i++){ 
+for (var i = 0; i < data.length; i++){
     var z = (x + y) * i;
 }
 ```

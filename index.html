@@ -1,0 +1,139 @@
+<!--Sjoerd Zagema(12195677)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" >
+<link href="src/Code/CSS/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Terrorism Europa</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+            <a class="nav-link" href="#!" data-toggle="modal"  data-target="#exampleModalLong">Story of data <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+             <a class="nav-link" href="https://github.com/sjoerdjevoet/Data_Processing_Sjoerd/blob/master/Data_Processing_Sjoerd/Programming_assignments/week5_6/Sources_Used.pdf">Sources used <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled">Author Sjoerd Zagema</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <div id="sliderContainer">  <input type="range" min="0" max="3" value="0" step="1" id="timeslide"/>
+        <span id="range">1976-1985</span></div>
+
+    </nav>
+
+  <div class="datamaps-legend" style='margin-top:200px;margin-left:30px;'><h3>Attacks</h3><dl><dt>HIGH: >=400  </dt><br><dd style="background-color:#007bff">&nbsp;</dd><br ><dt>AVERAGE: > 10 and <=400</dt><br><dd style="background-color:#00a1ff">&nbsp;</dd><br ><dt>LOW: <= 10 </dt><br><dd style="background-color:#00ffe9">&nbsp;</dd><br ><dt>UNKNOWN: </dt><br><dd style="background-color:#707070">&nbsp;</dd><br></dl></div>
+
+  <div id="map"> </div>
+<div class="container .container-fluid">
+  <div style='margin-top:5px;'></div>
+  <div class='row'>
+      <div class='col-12 text-center'>
+<div id= "selectedCountryTitle">
+</div>
+</div>
+
+    <div class='col-6'>
+      <div  id='attackTypes'></div>
+  <div class= "informationcountry"> </div>
+  <div  id="donutChartTitle"> </div>
+     <div  id="donutChart"> </div>
+  </div>
+
+<div class='col-6'>
+    <div id='groupTypes'></div>
+  <div class= "updatebartitle text-center"> </div>
+<div <div id="updateBarChart"></div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+
+<div id= "explainTitle"> </div>
+<div id="explainMap">  The attacktypes are presented in a <strong>donut chart </strong>. By hover you could see additional information. By clicking on the square in the legend it is possible to filter the attack types. <br>
+  Information about the terrorist groups in shown in a <strong>horizontal bar chart.</strong> This is sorted by the group of terrorist with the most attacks.
+  <br>
+  The <strong>heatmap</strong> displays the five different targettypes with respect to a given month. The more attacks there have been, the darker the sqaure becomes. By hovering the square you see the exact amount of attacks
+<br>
+<button onclick="scrolltomapFunction()" type="button" class="btn btn-info btn-sm">Go back to map</button>
+ </div>
+</div>
+
+
+    <div class="col-6">
+      <div  id="heatmapTitle"> </div>
+       <div id="heatMap"></div>
+    </div>
+
+</div>
+</div>
+
+
+<div class="modal fade right" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"> Terrorism in Europe</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h6> Introduction: </h6>
+        <p> People have the "feeling" that there are more terror attacks taken place nowadays (Motivaction, 2018). They also believe that the nature of terrorism has changed (Wright, 2017). The following assumptions people have: firstly, that the weapons terrorists use are different. Secondly, that the group of terrorist are different and lastly that the attack types are finding place in different periods. The aim of this application  is to examine these conjectures in order to inform the public. </p>
+       <h6> The map: </h6>
+       <p> Within this map, it is possible to see how many attacks took place in a given timeperiod. The legend shows the information that is shown on the card. With the slider you are able to select different timeperiods and when you want to see more information for each country you can hover over the map, whereafter a tooltip is shown and when you <strong> click on the country, more country specific information will be shown.</strong>  </p>
+       <h6> Conclusion: </h6>
+       <p> For the <strong> Netherlands </strong>, it is possible to conclude that the number of attacks has become less, that the terrorist groups have changed over time and that the attack type largely shifted <strong>from Bombing to Infrastructure attacks <strong>  </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/linq.js/2.2.0.2/linq.js"></script>
+    <script // src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="src/Code/Javascript/datamaps.world.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+        <script src="src/code/javascript/preparedata.js"></script>
+        <script src="src/code/javascript/donutchart.js"></script>
+        <script src="src/code/javascript/horizontalbarchart.js"></script>
+          <script src="src/code/javascript/heatmap.js"></script>
+          <script src="src/code/javascript/mainfunctions.js"></script>
+          <script src="src/code/javascript/dashboard.js"></script>
+
+</body>
+
+</html>
