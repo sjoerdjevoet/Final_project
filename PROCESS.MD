@@ -65,7 +65,6 @@ Bezig geweest met bootstrap om te kijken hoe ik mijn visualisaties moet inschale
 </p>
 
 
-<h2> Dag 12 </h2>
 
 <h2> Dag 12 </h2> 
 
