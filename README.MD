@@ -1,4 +1,11 @@
-<h1>Terrorisme in Europa 1990-2015 (misschien tot en met 2017)</h1>
+<h1>Terrorisme in Europa (1990-2015)</h1>
+
+Sjoerd Zagema
+12195677
+Programmeerproject  
+Minor Programmeren UvA 2018  
+
+[Final Application](https://sjoerdjevoet.github.io/Final_project/)
 
 <h2>Introductie</h2>
 
