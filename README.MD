@@ -1,4 +1,4 @@
-<h1>Terrorisme in Europa (1990-2015)</h1>
+<h1>Terrorism in Europe (1990-2015)</h1>
 
 Sjoerd Zagema <br>
 12195677 <br>
