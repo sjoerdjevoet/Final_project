@@ -16,7 +16,7 @@ issues: Datamaps biedt alleen de mogelijkheid om op basis van het land_id te kun
 </p>
 
 <h2> Dag 4 </h2>
-<<<<<<< HEAD
+
 <p> status: Bezig met het maken van de Map
 
 working on: Tooltip voor map
@@ -31,7 +31,7 @@ working on: Legend map en slider
 
 issues: Schaling map (extreme waarden)
 </p>
-=======
+
 Dictonary voor aanslagen is in orde. Bezig geweest met het maken van de map, op zo'n manier dat ik geen ID hoef toe te voegen in m'n dataset.
 </p>
 
@@ -64,10 +64,10 @@ Bezig geweest met bootstrap om te kijken hoe ik mijn visualisaties moet inschale
 <p> Ben bezig geweest om de heatmap te maken, het was veel gezeik om dit in elkaar te zetten. Het is nu nog steeds niet helemaal af. Ik was met name lang bezig om de data goed te krijgen. Dit is nu nog steeds niet helemaal goed.
 </p>
 
-<<<<<<< HEAD
+
 <h2> Dag 12 </h2>
-=======
+
 <h2> Dag 12 </h2> 
->>>>>>> e6c76181e90dff8293335ade8e96be0b7ea882da
+
 <p> Heb de data voor de heatmap goed gekregen en heb een bug in de slider ontdekt, waar ik nog steeds mee bezig ben om op te lossen
 </p>
