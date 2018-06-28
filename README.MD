@@ -15,9 +15,9 @@
 
 
 <blockquote>
-
+    
  Het idee is om de bezorgde burger te informeren met betrekking tot de terroristische aanslagen in Europa op basis van verschillende visualisaties.
-
+    
 </blockquote>
 
 <h2> Oplossing </h2>

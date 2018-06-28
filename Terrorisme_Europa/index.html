@@ -1,0 +1,125 @@
+<!--Sjoerd Zagema(12195677)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" >
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Terrorisme Europa</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+            <a class="nav-link" href="#!" data-toggle="modal" data-target="#exampleModalLong">Story of data <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="">Sources used <span class="sr-only">(current)</span></a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link disabled">Author Sjoerd Zagema</a>
+          </li>
+
+        <!--    <div c>
+
+
+                              <select autocomplete="off" class="btn btn-primary" id ='selectBox' onchange="">
+                                <option value="1975_1985_period.json">75-85</option>
+                                <option value="1985_1995_period.json">85-95</option>
+
+                              </select>
+                          </div> -->
+        </ul>
+
+        <!--<h1 id= 'map_title'></h1>-->
+      </div>
+      <div id="sliderContainer">  <input id="timeslide" type="range" min="0" max="3" value="0" step="1"/>
+        <span id="range">1975-1985</span></div>
+    </nav>
+
+  <div class="datamaps-legend" style='margin-top:200px;margin-left:30px;'><h3>Aanslagen</h3><dl><dt>Extreme high: </dt><br><dd style="background-color:blue">&nbsp;</dd><br ><dt>HIGH: </dt><br><dd style="background-color:green">&nbsp;</dd><br ><dt>LOW: </dt><br><dd style="background-color:red">&nbsp;</dd><br ><dt>AVERAGE: </dt><br><dd style="background-color:yellow">&nbsp;</dd><br ><dt>UNKNOWN: </dt><br><dd style="background-color:#707070">&nbsp;</dd><br></dl></div>
+
+  <div id="map"> </div>
+<div class="container .container-fluid">
+  <div style='margin-top:30px;'></div>
+  <div class='row'>
+      <div class='col-12 text-center' style='margin-bottom:20px;'>
+<div id= "informationcountry"> </div>
+</div>
+    <div class='col-6'>
+      <div  id='attacktypes'></div>
+  <div class= "informationcountry"> </div>
+  <div  id="donutcharttitle"> </div>
+     <div  id="donutchart"> </div>
+  </div>
+    <!--<div class='col-4'>
+ <div id="heatmap"></div> <div id="chart"></div>
+</div>-->
+<div class='col-6'>
+    <div id='grouptypes'></div>
+  <div class= "updatebartitle text-center"> </div>
+<div <div id="updatebarchart"></div>
+</div>
+<div class='row'>
+<div class='col-12'>
+    <div id="trafficAccidents"></div>
+    <div  id=dataDiv  style='box-shadow: 4px 4px 4px #888888;-webkit-box-shadow:2px 3px 4px #888888;padding:2px;position:absolute;top:0px;left:0px;visibility:hidden;background-color:linen;border: solid 1px black;border-radius:5px;'></div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Uitleg terrorisme Europa</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hier komt de uitleg over de map
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/linq.js/2.2.0.2/linq.js"></script>
+    <script // src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="/datamaps.world.min.js"></script>
+    <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script src="/terrorisme.js"></script>
+
+</body>
+
+</html>

@@ -64,6 +64,10 @@ Bezig geweest met bootstrap om te kijken hoe ik mijn visualisaties moet inschale
 <p> Ben bezig geweest om de heatmap te maken, het was veel gezeik om dit in elkaar te zetten. Het is nu nog steeds niet helemaal af. Ik was met name lang bezig om de data goed te krijgen. Dit is nu nog steeds niet helemaal goed.
 </p>
 
+<<<<<<< HEAD
 <h2> Dag 12 </h2>
+=======
+<h2> Dag 12 </h2> 
+>>>>>>> e6c76181e90dff8293335ade8e96be0b7ea882da
 <p> Heb de data voor de heatmap goed gekregen en heb een bug in de slider ontdekt, waar ik nog steeds mee bezig ben om op te lossen
 </p>
